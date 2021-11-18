@@ -1,0 +1,22 @@
+N E X T F L O W  ~  version 20.10.0
+Launching `test5.nf` [angry_hilbert] - revision: 268002a350
+
+BIOCORE@CRG - N F TESTPIPE  ~  version 1.0
+=============================================
+reads                           : /home/ec2-user/new/SIB_course_nextflow_Nov_2021/nextflow/test5/../../testdata/*.fastq.gz
+reference                       : /home/ec2-user/new/SIB_course_nextflow_Nov_2021/nextflow/test5/../../testdata/chr19.fasta.gz
+
+Monitor the execution with Nextflow Tower using this url https://tower.nf/user/lucacozzuto/watch/vqCBLNMtSERvm
+[b3/f4861e] Submitted process > BOWTIE:bowtieIdx (chr19.fasta.gz)
+[65/eb2606] Submitted process > fastqc (B7_input_s_chr19.fastq.gz)
+[aa/7f4470] Submitted process > fastqc (B7_H3K4me1_s_chr19.fastq.gz)
+[de/7939ba] Submitted process > BOWTIE:bowtieAln (B7_input_s_chr19.fastq.gz)
+[ce/4eb769] Submitted process > BOWTIE:bowtieAln (B7_H3K4me1_s_chr19.fastq.gz)
+/home/ec2-user/new/SIB_course_nextflow_Nov_2021/nextflow/test5/work/de/7939ba41954a2d3bf96d7d3b6cece2/B7_input_s_chr19.fastq.gz.sam
+/home/ec2-user/new/SIB_course_nextflow_Nov_2021/nextflow/test5/work/de/7939ba41954a2d3bf96d7d3b6cece2/B7_input_s_chr19.fastq.gz.log
+/home/ec2-user/new/SIB_course_nextflow_Nov_2021/nextflow/test5/work/ce/4eb769c0350552eecc599e63d31c0e/B7_H3K4me1_s_chr19.fastq.gz.log
+/home/ec2-user/new/SIB_course_nextflow_Nov_2021/nextflow/test5/work/ce/4eb769c0350552eecc599e63d31c0e/B7_H3K4me1_s_chr19.fastq.gz.sam
+[39/d20b92] Submitted process > multiqc
+
+Done! Open the following report in your browser --> ouptut_multiQC/multiqc_report.html
+
